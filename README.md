@@ -8,3 +8,10 @@ Personal blog where I post projects overviews, technical posts, and any interest
 
 ## Local development
 hugo server: Posts live in `content/posts/`. Set `draft: false` in front matter to publish on next deploy.
+
+## License
+
+- Code (site configuration, templates, and code snippets embedded in posts):
+  [MIT](./LICENSE-CODE)
+- Written content (blog posts and pages): 
+  [CC BY 4.0](./LICENSE-CONTENT)

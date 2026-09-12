@@ -20,6 +20,7 @@ paginate = 10
 	[languages.en]
 		languageName = "English"
    		title = "Omar Merroun"
+		copyright = "© 2026 Omar Merroun · Content CC BY 4.0 · Code MIT · RSS"
    		[languages.en.params]
       			subtitle = "Notes on Linux systems, kernel internals, and things I'm learning."
       			owner = { name = "Omar Merroun", email = "omar@omarmerroun.com" }
