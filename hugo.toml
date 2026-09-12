@@ -1,3 +1,47 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = 'https://omarmerroun.com/'
+languageCode = 'en-us'
+title = 'Omar Merroun'
+theme = 'terminal'
+paginate = 10
+
+[params]
+	contentTypeName = "posts"
+	themeColor = "orange"
+	showMenuItems = "2"
+	fullWidthTheme = false
+	centerTheme = true
+	autoCover = true
+	showLastUpdated = false
+	
+[params.twitter]
+
+
+[languages]
+	[languages.en]
+		languageName = "English"
+   		title = "Omar Merroun"
+   		[languages.en.params]
+      			subtitle = "Notes on Linux systems, kernel internals, and things I'm learning."
+      			owner = { name = "Omar Merroun", email = "omar@omarmerroun.com" }
+      			keywords = ""
+      			copyright = ""
+      			menuMore = "Show more"
+      			readMore = "Read more"
+      			readOtherPosts = "Read other posts"
+      			newerPosts = "Newer posts"
+      			olderPosts = "Older posts"
+      			missingContentMessage = "Page not found..."
+      			missingBackButtonLabel = "Back to home page"
+
+      			[languages.en.params.logo]
+        			logoText = "omarmerroun"
+        			logoHomeLink = "/"
+
+		[[languages.en.menu.main]]
+      			identifier = "about"
+      			name = "about"
+      			url = "/about"
+    		[[languages.en.menu.main]]
+      			identifier = "posts"
+      			name = "posts"
+      			url = "/posts"
